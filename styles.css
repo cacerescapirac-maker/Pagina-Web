@@ -1,0 +1,177 @@
+/* ====== ESTILOS GENERALES ====== */
+body {
+  font-family: Arial, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+header, nav, main, footer {
+  padding: 20px;
+}
+header {
+  background-color: #2d6a4f;
+  color: white;
+  text-align: center;
+}
+
+/* ====== MENÚ ====== */
+nav {
+  background-color: #40916c;
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+nav li {
+  display: inline-block;
+  margin: 0 15px;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* ====== SECCIONES ====== */
+section {
+  margin: 30px 0;
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+ol {
+  list-style-type: upper-roman;
+}
+ul {
+  list-style-type: square;
+}
+
+/* ====== TABLAS ====== */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+caption {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+th, td {
+  border: 1px solid #555;
+  padding: 10px;
+  text-align: left;
+}
+th {
+  background-color: #95d5b2;
+}
+tfoot td {
+  text-align: center;
+  font-style: italic;
+  background-color: #e9ecef;
+}
+
+/* ====== CARDS ====== */
+.cards {
+  text-align: center;
+}
+.card {
+  display: inline-block;
+  width: 250px;
+  margin: 15px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  background-color: #fff;
+  vertical-align: top;
+}
+.card figure {
+  margin: 0;
+}
+.card img {
+  width: 100%;
+  height: 180px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+.card h3 {
+  color: #1b4332;
+}
+.card p {
+  padding: 0 10px 10px;
+}
+
+/* ====== ESTILOS DE TEXTO ====== */
+.textos p {
+  margin: 8px 0;
+}
+.rojo { color: red; }
+.verde { color: green; }
+.azul { color: blue; }
+.fondo1 { background-color: #e0f7fa; }
+.fondo2 { background-color: #fff3cd; }
+.grande { font-size: 24px; }
+.mediano { font-size: 18px; }
+.pequeño { font-size: 12px; }
+.izq { text-align: left; }
+.cen { text-align: center; }
+.der { text-align: right; }
+.negrita { font-weight: bold; }
+.cursiva { font-style: italic; }
+.subrayado { text-decoration: underline; }
+
+/* ====== MULTIMEDIA ====== */
+video, audio {
+  display: block;
+  margin: 10px auto;
+}
+
+/* ====== FORMULARIO ====== */
+form {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 10px;
+  width: 90%;
+  margin: 0 auto;
+}
+fieldset {
+  border: 2px solid #40916c;
+  padding: 15px;
+  border-radius: 10px;
+}
+legend {
+  font-weight: bold;
+  color: #2d6a4f;
+}
+label {
+  display: block;
+  margin: 8px 0 4px;
+}
+input, textarea, select, button {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+button {
+  background-color: #2d6a4f;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #1b4332;
+}
+
+/* ====== PIE DE PÁGINA ====== */
+footer {
+  text-align: center;
+  background-color: #2d6a4f;
+  color: white;
+  padding: 15px;
+}
